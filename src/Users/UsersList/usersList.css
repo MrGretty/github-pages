@@ -1,0 +1,21 @@
+.containerList {
+  display: flex;
+  flex-flow: row wrap;
+
+  padding: 16px;
+}
+
+.containerList > div {
+  margin: 10px;
+}
+
+.containerListLoadMore {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.containerListLoadMore > img {
+  max-width: 200px;
+  max-height: 200px;
+}

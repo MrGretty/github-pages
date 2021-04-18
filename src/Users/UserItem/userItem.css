@@ -1,0 +1,17 @@
+.user-content {
+  padding: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.user-avatar > img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+}
+
+.user-text {
+  cursor: pointer;
+}
